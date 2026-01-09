@@ -1,125 +1,107 @@
-# Job Portal App
+# JobConnect – MERN Job Portal Platform
 
-A modern, full-stack Job Portal built with the powerful **MERN stack** — enabling both job seekers (students) and recruiters to connect seamlessly. With a clean, animated, and responsive UI, this platform allows users to explore opportunities, post jobs, and manage applications with ease.
+JobConnect is a full-stack **Job Portal web application** built using the **MERN stack**. The platform connects students seeking job opportunities with recruiters looking to hire talent. It emphasizes clean UI, smooth user experience, and scalable architecture.
+
+This project is a **customized and extended version of an open-source repository**. The original concept has been enhanced with UI improvements, feature extensions, and code refactoring to better reflect real-world job portal requirements.
 
 ---
 
-##  Features
+## 🚀 Features
 
-###  General
--  **Authentication System** — Secure login & registration using JWT
-- **Role-Based Access** — Separate dashboards for students and recruiters
--  **Clean, Responsive UI** — Built with Tailwind CSS & shadcn/ui
--  **Dynamic Routing & State Management** — Smooth navigation across the app
+### 🔐 General
+- Secure authentication using **JWT**
+- Role-based access control (Student & Recruiter)
+- Responsive and modern UI
+- Smooth navigation and state management
 
-###  Student Role
+### 🎓 Student Features
 - Browse and search job listings
-- Apply to jobs with one click
-- Track application status in personal dashboard
+- Apply to jobs with a single click
+- Track applied jobs and application status
 
-###  Recruiter Role
-- Post new job opportunities
+### 🧑‍💼 Recruiter Features
+- Create and post job openings
 - View applicants for each job
-- Edit or delete job postings
-- Manage all listings from a unified dashboard
+- Edit or delete job listings
+- Manage all postings from a recruiter dashboard
 
 ---
 
-##  UI & Animations
+## 🎨 UI & Animations
 
-The UI is built with **Tailwind CSS** and enhanced with **shadcn/ui** components for consistency and accessibility. Smooth animations and transitions are added using **Framer Motion**, delivering a modern and engaging user experience.
-
-- Responsive layout for mobile, tablet, and desktop
-- Dark/light mode support (optional if implemented)
-- Animated modals, buttons, and transitions
-- Accessible and consistent component design
+- **Tailwind CSS** for responsive design
+- **shadcn/ui** components for accessibility and consistency
+- **Framer Motion** for smooth animations and transitions
+- Mobile-first layout optimized for all screen sizes
 
 ---
 
-## Tech Stack
+## 🛠 Tech Stack
 
-###  Frontend
-- **React.js** – Component-based architecture
-- **Tailwind CSS** – Utility-first CSS for clean, responsive UI
-- **shadcn/ui** – Beautiful, headless UI components
-- **Framer Motion** – Animations and motion effects
-- **React Router** – Client-side routing
-- **Axios** – API communication
+### Frontend
+- React.js  
+- Tailwind CSS  
+- shadcn/ui  
+- Framer Motion  
+- React Router  
+- Axios  
 
-###  Backend
-- **Node.js** – Server-side JavaScript runtime
-- **Express.js** – Web framework for APIs
-- **MongoDB** – NoSQL database for storing user/job data
-- **Mongoose** – MongoDB object modeling for Node.js
-- **JWT (JSON Web Token)** – Authentication and authorization
-
----
-
-##  Authentication Flow
-
-- **Users register/login with their email and password**
-
-- **JWT tokens are issued and stored securely**
-
-- **Access is restricted based on user roles (student/recruiter)**
-
-- **Protected routes for job posting, applications, and dashboards**
+### Backend
+- Node.js  
+- Express.js  
+- MongoDB  
+- Mongoose  
+- JSON Web Tokens (JWT)  
 
 ---
 
-##  Getting Started
+## 🔐 Authentication Flow
 
-### 1. Clone the Repository
+- Users register and log in using email and password  
+- JWT tokens are issued upon successful authentication  
+- Role-based protected routes for students and recruiters  
+- Authorization middleware for secure API access  
+
+---
+
+## ⚙️ Getting Started
+
+### 1️⃣ Clone the Repository
+
+git clone <your-repository-url>
 
 
-### 2. Setup Environment Variables
-Create a .env file inside the server/ directory with:
+Create a .env file inside the server/ directory:
 
-```bash
-MONGODB_URI = ""
-PORT = 8000
-SECRET_KEY = ""
+MONGODB_URI=your_mongodb_connection_string
+PORT=8000
+SECRET_KEY=your_jwt_secret
 
-CLOUDINARY_API_KEY = ""
-CLOUDINARY_SECRET_KEY = ""
-CLOUDINARY_NAME = ""
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_SECRET_KEY=your_cloudinary_secret_key
+CLOUDINARY_NAME=your_cloudinary_name
 
-NODE_ENV === ""
-```
+NODE_ENV=development
 
-### 3. Install Dependencies
 
-```bash
-# Install frontend packages
+Install Dependencies
 cd client
 npm install
 
-# Install backend packages
 cd ../server
 npm install
-```
 
-### 4. Run the Application
 
-```bash
-# Start backend server
+Run the Application
 cd server
 npm run dev
 
-# Start frontend dev server
 cd ../client
 npm start
-```
-
-### Open in browser:
-- **Frontend → http://localhost:5137**
-- **Backend → http://localhost:5000**
-
----
 
 
-## Acknowledgements
+Application URLs
 
-This project is based on an open-source repository.
-I have extended and customized the project by adding new features and making several improvements.
+Frontend: http://localhost:5137
 
+Backend: http://localhost:5000
