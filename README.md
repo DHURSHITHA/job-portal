@@ -71,8 +71,11 @@ This project is a **customized and extended version of an open-source repository
 git clone https://github.com/DHURSHITHA/job-portal.git
 
 
-Create a .env file inside the server/ directory:
+### Environment Variables
 
+Create a `.env` file inside the `server/` directory and add:
+
+```env
 MONGODB_URI=your_mongodb_connection_string
 PORT=8000
 SECRET_KEY=your_jwt_secret
@@ -82,6 +85,7 @@ CLOUDINARY_SECRET_KEY=your_cloudinary_secret_key
 CLOUDINARY_NAME=your_cloudinary_name
 
 NODE_ENV=development
+```
 
 
 Install Dependencies
