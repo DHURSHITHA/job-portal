@@ -1,23 +1,23 @@
-# 💼 Job Portal App
+# Job Portal App
 
 A modern, full-stack Job Portal built with the powerful **MERN stack** — enabling both job seekers (students) and recruiters to connect seamlessly. With a clean, animated, and responsive UI, this platform allows users to explore opportunities, post jobs, and manage applications with ease.
 
 ---
 
-## ✨ Features
+##  Features
 
-### ✅ General
-- 🔐 **Authentication System** — Secure login & registration using JWT
-- 👥 **Role-Based Access** — Separate dashboards for students and recruiters
-- 🌐 **Clean, Responsive UI** — Built with Tailwind CSS & shadcn/ui
-- 🎯 **Dynamic Routing & State Management** — Smooth navigation across the app
+###  General
+-  **Authentication System** — Secure login & registration using JWT
+- **Role-Based Access** — Separate dashboards for students and recruiters
+-  **Clean, Responsive UI** — Built with Tailwind CSS & shadcn/ui
+-  **Dynamic Routing & State Management** — Smooth navigation across the app
 
-### 🎓 Student Role
+###  Student Role
 - Browse and search job listings
 - Apply to jobs with one click
 - Track application status in personal dashboard
 
-### 🧑‍💼 Recruiter Role
+###  Recruiter Role
 - Post new job opportunities
 - View applicants for each job
 - Edit or delete job postings
@@ -25,7 +25,7 @@ A modern, full-stack Job Portal built with the powerful **MERN stack** — enabl
 
 ---
 
-## 🎨 UI & Animations
+##  UI & Animations
 
 The UI is built with **Tailwind CSS** and enhanced with **shadcn/ui** components for consistency and accessibility. Smooth animations and transitions are added using **Framer Motion**, delivering a modern and engaging user experience.
 
@@ -36,9 +36,9 @@ The UI is built with **Tailwind CSS** and enhanced with **shadcn/ui** components
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### 🧑‍💻 Frontend
+###  Frontend
 - **React.js** – Component-based architecture
 - **Tailwind CSS** – Utility-first CSS for clean, responsive UI
 - **shadcn/ui** – Beautiful, headless UI components
@@ -46,7 +46,7 @@ The UI is built with **Tailwind CSS** and enhanced with **shadcn/ui** components
 - **React Router** – Client-side routing
 - **Axios** – API communication
 
-### 🖥️ Backend
+###  Backend
 - **Node.js** – Server-side JavaScript runtime
 - **Express.js** – Web framework for APIs
 - **MongoDB** – NoSQL database for storing user/job data
@@ -55,16 +55,7 @@ The UI is built with **Tailwind CSS** and enhanced with **shadcn/ui** components
 
 ---
 
-## 📁 Project Structure
-
-### job-portal/ ├── client/ # React + Tailwind frontend │ ├── components/ │ ├── pages/ │ └── ... ├── server/ # Express backend API │ ├── routes/ │ ├── controllers/ │ └── models/ └── README.md
-
----
-
-
----
-
-## 🔒 Authentication Flow
+##  Authentication Flow
 
 - **Users register/login with their email and password**
 
@@ -76,14 +67,10 @@ The UI is built with **Tailwind CSS** and enhanced with **shadcn/ui** components
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
-```bash
-git clone https://github.com/shubham79a/job-portal.git
-cd job-portal
-```
 
 ### 2. Setup Environment Variables
 Create a .env file inside the server/ directory with:
@@ -131,19 +118,8 @@ npm start
 ---
 
 
-## 📜 License
-- **This project is open-source and licensed under the MIT License.**
+## Acknowledgements
 
----
+This project is based on an open-source repository.
+I have extended and customized the project by adding new features and making several improvements.
 
-
-## 👨‍💻 Author
-- **Made with 💙 by Shubham**
-- **🔗 Connect on [LinkedIn](https://www.linkedin.com/in/shubham-kumar-894799290/)
-
----
-
-
-## 🙌 Contributions
-**Feel free to fork the repo, submit issues, or open a pull request.**
-**Suggestions and contributions are always welcome!**
