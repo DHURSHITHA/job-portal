@@ -1,4 +1,4 @@
-# JobConnect – MERN Job Portal Platform
+JobConnect – MERN Job Portal Platform
 
 JobConnect is a full-stack **Job Portal web application** built using the **MERN stack**. The platform connects students seeking job opportunities with recruiters looking to hire talent. It emphasizes clean UI, smooth user experience, and scalable architecture.
 
@@ -6,20 +6,20 @@ This project is a **customized and extended version of an open-source repository
 
 ---
 
-## 🚀 Features
+## Features
 
-### 🔐 General
+###  General
 - Secure authentication using **JWT**
 - Role-based access control (Student & Recruiter)
 - Responsive and modern UI
 - Smooth navigation and state management
 
-### 🎓 Student Features
+###  Student Features
 - Browse and search job listings
 - Apply to jobs with a single click
 - Track applied jobs and application status
 
-### 🧑‍💼 Recruiter Features
+###  Recruiter Features
 - Create and post job openings
 - View applicants for each job
 - Edit or delete job listings
@@ -27,7 +27,7 @@ This project is a **customized and extended version of an open-source repository
 
 ---
 
-## 🎨 UI & Animations
+## UI & Animations
 
 - **Tailwind CSS** for responsive design
 - **shadcn/ui** components for accessibility and consistency
@@ -36,7 +36,7 @@ This project is a **customized and extended version of an open-source repository
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 ### Frontend
 - React.js  
@@ -55,7 +55,7 @@ This project is a **customized and extended version of an open-source repository
 
 ---
 
-## 🔐 Authentication Flow
+## Authentication Flow
 
 - Users register and log in using email and password  
 - JWT tokens are issued upon successful authentication  
@@ -64,11 +64,11 @@ This project is a **customized and extended version of an open-source repository
 
 ---
 
-## ⚙️ Getting Started
+##  Getting Started
 
-### 1️⃣ Clone the Repository
+###Clone the Repository
 
-git clone <your-repository-url>
+git clone https://github.com/DHURSHITHA/job-portal.git
 
 
 Create a .env file inside the server/ directory:
