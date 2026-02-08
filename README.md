@@ -3,7 +3,7 @@ JobConnect – MERN Job Portal Platform
 JobConnect is a full-stack **Job Portal web application** built using the **MERN stack**. The platform connects students seeking job opportunities with recruiters looking to hire talent. It emphasizes clean UI, smooth user experience, and scalable architecture.
 
 This project is a **customized and extended version of an open-source repository**. The original concept has been enhanced with UI improvements, feature extensions, and code refactoring to better reflect real-world job portal requirements.
-
+  
 ---
 
 ## Features
